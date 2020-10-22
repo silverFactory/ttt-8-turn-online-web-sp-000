@@ -18,7 +18,7 @@ def valid_move?(board, move)
   end
 end
 
-def move
+def move(board, index, token = "X")
 end
 
 def position_taken?(board, move)
