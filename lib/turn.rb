@@ -31,13 +31,14 @@ def position_taken?(board, move)
 end
 
 def turn(board)
+loop
 puts "Please enter 1-9:"
 input = gets.strip
 index = input_to_index(input)
- if !valid_move?(board, index)
-   puts "invalid"
- else
+ if valid_move?(board, index)
    move(board, index)
+   break
  end
  display_board(board)
+ end
 end
