@@ -32,5 +32,6 @@ end
 
 def turn(num)
 puts "Please enter 1-9:"
-move = gets.strip
+input = gets.strip
+index = input_to_index(input)
 end
