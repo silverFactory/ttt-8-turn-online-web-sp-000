@@ -27,3 +27,4 @@ def position_taken?(board, move)
  else
    true
 end
+end
