@@ -15,11 +15,12 @@ def valid_move?(board, move)
     true
   else
     false
+  end
 end
 
 def move
 end
 
 def position_taken?(board, move)
-  
+
 end
