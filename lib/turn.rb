@@ -27,5 +27,9 @@ def position_taken?(board, move)
    false
  else
    true
+ end
 end
+
+def turn
+puts "Please enter 1-9:"
 end
