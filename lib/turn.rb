@@ -38,5 +38,5 @@ index = input_to_index(input)
    puts "invalid"
  else
    move(board, index)
- end  
+ end
 end
