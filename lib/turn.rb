@@ -39,4 +39,5 @@ index = input_to_index(input)
  else
    move(board, index)
  end
+ display(board)
 end
